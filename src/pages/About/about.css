@@ -1,0 +1,153 @@
+
+
+/* About */
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+p,
+span {
+  font-family: "Karla", sans-serif;
+}
+
+.maindiv {
+  display: grid;
+  grid-template-rows: 60% 40%;
+  align-items: center;
+ 
+}
+.text>p>span{
+  color:#ff792d;
+}
+.upper {
+  display: grid;
+  grid-template-columns: 38% 62%;
+  margin-top: 10px;
+  
+}
+.leftarea {
+  margin: 0px 0px 0px 40px;
+  display: flex;
+  justify-content: center;
+  padding-left:25px;
+}
+
+.rightarea {
+  margin: 0px 60px;
+  display: flex;
+  justify-content: center;
+}
+
+.title > p {
+  font-weight: 600;
+  font-size: 16px;
+  color: #55527c;
+  margin-bottom: 15px;
+ 
+}
+.title > span {
+  font-size: 17px;
+  color: #130f49;
+
+  font-weight: 600;
+}
+
+.title > h3 {
+  color: #130f49;
+  font-size: 35px;
+  font-family: "Inter", sans-serif;
+  margin: 0 0 10px;
+}
+.btns {
+  margin-top: 40px;
+}
+
+.bttns>button {
+  background-color: #130f49;
+  color: white;
+  border: none;
+  border-color: #130f49;
+  font-size: 16px;
+  padding: 15px 35px;
+  margin-right: 20px;
+  border-radius: 5px;
+  letter-spacing: 0.5px;
+  font-family: "Karla", sans-serif;
+  cursor: pointer;
+  margin-top: 30px;
+}
+
+.text > p {
+  color: #55527c;
+  font-size: 16px;
+
+  line-height: 2;
+}
+.text>p:nth-child(2){
+  margin:20px 0;
+}
+.text {
+  margin: 0px 30px;
+}
+.headings {
+  display: grid;
+  grid-template-columns: 8% 25% 42% 25%;
+}
+.details{
+  display: grid;
+  grid-template-columns: 8% 25% 42% 25%;
+  margin-top: 10px;
+}
+
+.details>a{
+  font-weight:700;
+  font-size:16px;
+  font-family: 'Inter',sans-serif;
+}
+
+
+.headings>P{
+  text-decoration: underline;
+}
+
+.box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin:0px;
+  position: relative;
+  bottom:60px;
+}
+
+.innerdiv1 {
+  background-color: #55e6c250;
+}
+.innerdiv2 {
+  background-color: #ffcccc56;
+}
+.innerdiv3 {
+  background-color: #70a2ff57;
+}
+.common {
+  padding: 45px 65px;
+  margin: 0px 10px;
+  text-align: center;
+  border-radius: 5px;
+}
+.common > h3 {
+  color: #130f49;
+  font-family: "Inter", sans-serif;
+  font-size: 35px;
+  text-align: center;
+  margin: 0 0 6px;
+  padding: 0px 60px;
+}
+.common > span {
+  color: #55527c;
+  font-weight: 600;
+}
+
+.infodetails{
+  margin-top: 40px;
+}

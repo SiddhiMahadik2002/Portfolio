@@ -1,26 +1,11 @@
 import React from "react";
-import "../component/portfolio.css"
+import "./portfolio.css"
+import { Sidebar } from "../../component/Sidebar/Sidebar";
+
 const Portfolio = () => {
-
-
     return (
         <div className="main">
-            <div className="left">
-                <div className="info">
-                    <img src="https://media.licdn.com/dms/image/C5603AQEVOY_esXCjDQ/profile-displayphoto-shrink_800_800/0/1660486102148?e=2147483647&v=beta&t=b10MeZxPFVu2olAiB8ZVyC83a3ESUnO4-xZdBbCYV6E" alt="" />
-                    <p>Siddhi Mahadik</p>
-                </div>
-                <div className="menu">
-                    <p>Home</p>
-                    <p>About</p>
-                    <p>Projects</p>
-                    <p>GitHub</p>
-                    <p>Contact</p>
-                </div>
-                
-                    <button>Get my Resume</button>
-                
-            </div>
+            <Sidebar/>
             <div className="right">
                 <div className="leftside">
                     <h1>Hi, I'm <span>Siddhi!</span> <br />
@@ -45,11 +30,11 @@ const Portfolio = () => {
 
                 </div>
                 <div className="rightside">
-                <img src="https://media.licdn.com/dms/image/C5603AQEVOY_esXCjDQ/profile-displayphoto-shrink_800_800/0/1660486102148?e=2147483647&v=beta&t=b10MeZxPFVu2olAiB8ZVyC83a3ESUnO4-xZdBbCYV6E" alt="" />
+                    <img src="https://media.licdn.com/dms/image/C5603AQEVOY_esXCjDQ/profile-displayphoto-shrink_800_800/0/1660486102148?e=2147483647&v=beta&t=b10MeZxPFVu2olAiB8ZVyC83a3ESUnO4-xZdBbCYV6E" alt="" />
                 </div>
             </div>
         </div>
-        
+
     )
 }
 export default Portfolio;
