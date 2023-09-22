@@ -6,7 +6,7 @@ const About = () => {
     return (
         <div className="main">
             <Sidebar />
-            <div className="maindiv">
+            <div className="maindiv scrollableDiv">
 
                 <div className="upper">
                     <div className="leftarea">

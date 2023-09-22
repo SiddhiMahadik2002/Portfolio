@@ -2,6 +2,7 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+   
     
 }
 
@@ -12,20 +13,20 @@
     display: grid;
     grid-template-rows: 60% 40%;
      align-items: center;
-     
-   
+    padding-top:40px;
 }
 
 .upper_contact{
     display: grid;
     grid-template-columns: 42% 52%;
     grid-column-gap: 12%;
+    
 }
 .lower_contact{
  display: flex;
  justify-content: center;
  align-items: center;
- margin:50px 0;
+ margin-top:250px;
 }
 .inputcontact{
     display: flex;
@@ -54,6 +55,7 @@
     outline: none;
     border:0.5px solid rgba(184, 184, 184, 0.361);
     margin: 10px 0;
+    resize: none;
 }
 .inputcontact>button{
     background-color: #130f49;
@@ -81,7 +83,7 @@
     font-weight: 600;
   font-size: 16px;
   color: #55527c;
-  margin-bottom: 15px
+  margin-bottom: 15px;
 }
 .head_contact > h3 {
     color: #130f49;
@@ -111,4 +113,5 @@
 }
 .map{
     border:none;
+    margin-bottom:30px ;
 }

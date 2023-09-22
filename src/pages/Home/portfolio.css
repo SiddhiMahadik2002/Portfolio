@@ -4,6 +4,7 @@
   display: grid;
   grid-template-columns: 19% 81%;
   height: 100vh;
+  
 }
 
 .right {

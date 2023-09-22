@@ -6,7 +6,7 @@ const Contact = () => {
         <div className="main">
             <Sidebar />
 
-            <div className="main_contact">
+            <div className="main_contact scrollableDiv">
                 <div className="upper_contact">
                     <div className="leftcontact">
                         <div className="head_contact">

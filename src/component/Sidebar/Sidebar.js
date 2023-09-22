@@ -10,8 +10,8 @@ export const Sidebar = () => {
             <div className="menu">
                 <NavLink to={"/"}>Home</NavLink>
                 <NavLink to={"/about"}>About</NavLink>
-                <NavLink>Projects</NavLink>
-                <NavLink>GitHub</NavLink>
+                <NavLink to={"/project"}>Projects</NavLink>
+                <NavLink to={"https://github.com/siddhimahadik2002"} target='_blank'>GitHub</NavLink>
                 <NavLink to={"/contact"}>Contact</NavLink>
             </div>
             <button>Get my Resume</button>

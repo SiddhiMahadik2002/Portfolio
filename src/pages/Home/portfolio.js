@@ -6,7 +6,7 @@ const Portfolio = () => {
     return (
         <div className="main">
             <Sidebar/>
-            <div className="right">
+            <div className="right scrollableDiv">
                 <div className="leftside">
                     <h1>Hi, I'm <span>Siddhi!</span> <br />
                         Creative Developer <br />from India

@@ -4,3 +4,10 @@ body {
   font-family: 'Karla', sans-serif;
 }
 
+.scrollableDiv{
+  overflow: auto;
+}
+
+.scrollableDiv::-webkit-scrollbar{
+  display: none;
+}
