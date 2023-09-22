@@ -1,0 +1,114 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    
+}
+
+
+.main_contact{
+    
+    background-color: #e9f9ff;
+    display: grid;
+    grid-template-rows: 60% 40%;
+     align-items: center;
+     
+   
+}
+
+.upper_contact{
+    display: grid;
+    grid-template-columns: 42% 52%;
+    grid-column-gap: 12%;
+}
+.lower_contact{
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ margin:50px 0;
+}
+.inputcontact{
+    display: flex;
+    flex-direction: column;
+   
+    justify-content: center;
+    /* align-items: center; */
+}
+
+.inputcontact>input{
+    width:90%;
+    font-family: 'karla',sans-serif;
+    padding: 20px;
+    background-color: #fff;
+    font-size: 16px;
+    outline: none;
+    border:0.5px solid rgba(184, 184, 184, 0.361);
+    margin: 10px 0;
+}
+.inputcontact>textarea{
+    width:90%;
+    font-family: 'karla',sans-serif;
+    padding: 20px;
+    background-color: #fff;
+    font-size: 16px;
+    outline: none;
+    border:0.5px solid rgba(184, 184, 184, 0.361);
+    margin: 10px 0;
+}
+.inputcontact>button{
+    background-color: #130f49;
+  color: white;
+  border: none;
+  border-color: #130f49;
+  font-size: 16px;
+  padding: 15px 35px;
+  margin-right: 20px;
+  border-radius: 5px;
+  letter-spacing: 0.5px;
+  font-family: "Karla", sans-serif;
+  cursor: pointer;
+  margin-top: 20px;
+  width:40%;
+}
+.head_contact{
+    display: flex;
+    flex-direction: column;
+ justify-content: center;
+ 
+}
+
+.head_contact>p{
+    font-weight: 600;
+  font-size: 16px;
+  color: #55527c;
+  margin-bottom: 15px
+}
+.head_contact > h3 {
+    color: #130f49;
+    font-size: 35px;
+    font-family: "Inter", sans-serif;
+    margin: 0 0 10px;
+  }
+
+.desc{
+    color:#55527c;
+    font-family: 'karla',sans-serif;
+    font-weight: 400 !important;
+    margin:10px 0;
+    line-height: 1.8;
+}
+.my_contact{
+    display:flex;
+    flex-direction: column;
+    line-height: 2;
+    margin:10px 0;
+    /* text-decoration:1; */
+
+}
+.upper_contact{
+    margin:50px;
+    padding:0px 65px;
+}
+.map{
+    border:none;
+}
