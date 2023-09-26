@@ -5,6 +5,7 @@
     height:70%;
 }
 .singleProject{
+    
     width:100%;
     border-radius: 10px;
     box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
@@ -12,16 +13,27 @@
 }
 .project{
     overflow:auto;
-    padding:100px;
-   
+    padding:100px; 
+    position: relative;
+    left: -2%; /* Start the element off the left side of the screen */
+    animation: slideFromleft 1s ease forwards;
+        }
+
+@keyframes slideFromleft{
+    to {
+        left: 0; /* Move the element to its final position */
+    }
 }
+
 .project_grid{
         display: grid;
         grid-template-columns: repeat(3, 1fr);
         grid-template-rows: repeat(2, 1fr);
         grid-column-gap: 30px;
-        grid-row-gap: 30px;
+        grid-row-gap: 40px;
+        
         }
+       
 .div1>p{
     font-weight: 600;
   font-size: 16px;
@@ -45,8 +57,9 @@
     margin:15px 0px;
     font-size: 16px;
   color: #55527c;
+  flex-grow: 1;
 }
-.innerDiv3>button{
+.chkproject{
     background-color: #130f49;
     color: white;
     border: none;
@@ -54,8 +67,10 @@
     font-size: 16px;
     padding: 15px 35px;
    width:100%;
+   margin:auto;
     border-radius: 5px;
     letter-spacing: 0.5px;
     font-family: "Karla", sans-serif;
     cursor: pointer;
+   
 }

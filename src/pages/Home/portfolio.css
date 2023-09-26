@@ -4,7 +4,13 @@
   display: grid;
   grid-template-columns: 19% 81%;
   height: 100vh;
+ 
   
+}
+@keyframes slideFromLeft {
+  to {
+      left: 0; /* Move the element to its final position */
+  }
 }
 
 .right {
@@ -12,7 +18,11 @@
   grid-template-columns: 50% 50%;
   background-color: #effbf8;
   padding: 20px 0px;
+  position: relative;
+    left: -2%; /* Start the element off the left side of the screen */
+    animation: slideFromLeft 1s ease forwards;
 }
+  
 
 h1 {
   font-family: "Inter", sans-serif;
@@ -44,6 +54,7 @@ button {
   letter-spacing: 0.5px;
   font-family: "Karla", sans-serif;
   cursor: pointer;
+  
 }
 .leftside {
   display: flex;
@@ -51,22 +62,28 @@ button {
   padding: 70px 0px 70px 80px;
   align-items: flex-start;
   margin-left: 50px;
+  
 }
-.btns > button:first-child {
+.btn1 {
   background-color: #130f49;
   color: white;
   border: none;
   border-color: #130f49;
 }
-.btns > button:last-child {
+.btn2 {
   background-color: #effbf8;
-  border: 1px solid black;
-  color: #55527c;
+  border: 1px solid #55527C;
+ 
+  
+}
+.btnlink2{
+  color:#55527C !important;
+  font-family: 'karla',sans-serif;
 }
 
 .vertical-line {
   width: 4px;
-  height: 80%;
+  height: 90%;
   background-color: #ff972d;
   margin: auto;
 }
@@ -77,11 +94,13 @@ ul {
 }
 .creds {
   display: flex;
+  margin-top: 20px;
 }
 ul > li {
   padding: 5px 0px;
 }
-a {
+
+.colorChange{
   font-size: 16px;
   font-weight: 600;
   font-family: "Karla", sans-serif;
@@ -89,27 +108,14 @@ a {
   text-decoration: none;
 }
 
-.menu > p:hover {
-  color: #a5a6ff;
-  cursor: pointer;
-}
-
-a:hover {
+.colorChange:hover {
   color: #ff972d;
   cursor: pointer;
 }
 
-.btns > button:first-child:hover {
-  background-color: #effbf8;
-  border: 1px solid black;
-  color: #55527c;
-}
-.btns > button:last-child:hover {
-  background-color: #130f49;
-  color: white;
-  border: none;
-  border-color: #130f49;
-}
+
+
+
 .rightside > img {
   border: 3px solid #a5a6ff;
   height: 350px;

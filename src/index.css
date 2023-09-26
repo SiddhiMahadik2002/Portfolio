@@ -2,6 +2,10 @@
 
 body {
   font-family: 'Karla', sans-serif;
+  margin: 0;
+    padding: 0;
+    overflow: hidden;
+
 }
 
 .scrollableDiv{
@@ -10,4 +14,8 @@ body {
 
 .scrollableDiv::-webkit-scrollbar{
   display: none;
+}
+button:hover {
+  transform: scale(0.8);
+  transition: all 500ms ease;
 }

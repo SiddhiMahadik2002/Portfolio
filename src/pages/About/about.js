@@ -1,8 +1,10 @@
+import { NavLink } from 'react-router-dom';
 import { Sidebar } from '../../component/Sidebar/Sidebar';
 import './about.css'
 
 const About = () => {
-
+    const emailAddress = 'siddhimahadik257@gmail.com';
+    const phoneNumber = '8956681803'
     return (
         <div className="main">
             <Sidebar />
@@ -16,15 +18,15 @@ const About = () => {
                             <h3>Siddhi Mahadik</h3>
                             <span>UI/UX Designer & Developer</span><br />
                             <div className="bttns">
-                                <button>Got a project?</button>
+                                <button className='aboutbtn'><NavLink className="buttonlink" to={"/project"}>Got a project?</NavLink></button>
                             </div>
                         </div>
 
                     </div>
                     <div className="rightarea">
                         <div className="text">
-                            <p>Hello there! My name is <span>Siddhi Mahadik</span>. I am a UI/UX designer & front-end developer, and I'm very passionate and dedicated to my work.</p>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum, error voluptates id tenetur impedit, ea nobis praesentium saepe voluptas atque ratione sequi distinctio inventore cum in doloremque neque dolorum odit
+                            <p>My name is <span>Siddhi Mahadik</span>, and I'm a frontend developer, Final year computer science student and designer. My expertise lies in frontend technologies such as HTML5, CSS3, JavaScript, and React.js. I'm currently expanding my skills by learning Next.js and Framer Motion.</p>
+                            <p>I'm enthusiastic about taking on freelance projects, and I'm also open to exploring full-time frontend developer roles. My dedication to creating exceptional user experiences makes me a valuable addition to any team. Let's collaborate to bring your projects to life!
                             </p>
                             <div className="infodetails">
                                 <div className="headings">
@@ -35,9 +37,9 @@ const About = () => {
                                 </div>
                                 <div className="details">
                                     <a>21</a>
-                                    <a href="">Maharastra, India</a>
-                                    <a href="">siddhimahadik257@gmail.com</a>
-                                    <a href="">8956681803</a>
+                                    <a>Maharastra, India</a>
+                                    <a href={`mailto:${emailAddress}`}>siddhimahadik257@gmail.com</a>
+                                    <a href={`tel:${phoneNumber}`}>8956681803</a>
                                 </div>
 
                             </div>
@@ -48,16 +50,16 @@ const About = () => {
                 <div className="lower">
                     <div className="box">
                         <div className="innerdiv1 common">
-                            <h3>10+</h3>
-                            <span>YEARS OF EXPERIENCE</span>
+                            <h3>5+</h3>
+                            <span>TECHNOLOGIES</span>
                         </div>
                         <div className="innerdiv2 common">
-                            <h3>50+</h3>
-                            <span>PROJECTS COMPLETED</span>
+                            <h3>5+</h3>
+                            <span>PROJECTS</span>
                         </div>
                         <div className="innerdiv3 common">
-                            <h3>30+</h3>
-                            <span>HAPPY CLIENTS</span>
+                            <h3>6+</h3>
+                            <span>MONTHS PROJECT <br /> BASED EXPERIENCE</span>
                         </div>
                     </div>
                 </div>

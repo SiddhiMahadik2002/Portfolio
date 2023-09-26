@@ -8,13 +8,14 @@ export const Sidebar = () => {
                 <p>Siddhi Mahadik</p>
             </div>
             <div className="menu">
-                <NavLink to={"/"}>Home</NavLink>
-                <NavLink to={"/about"}>About</NavLink>
-                <NavLink to={"/project"}>Projects</NavLink>
-                <NavLink to={"https://github.com/siddhimahadik2002"} target='_blank'>GitHub</NavLink>
-                <NavLink to={"/contact"}>Contact</NavLink>
+                <NavLink className="menulink" to={"/"}>Home</NavLink>
+                <NavLink  className="menulink" to={"/about"}>About</NavLink>
+                <NavLink  className="menulink" to={"/project"}>Projects</NavLink>
+                <NavLink  className="menulink" to={"https://github.com/siddhimahadik2002"} target='_blank'>GitHub</NavLink>
+                <NavLink  className="menulink" to={"/contact"}>Contact</NavLink>
             </div>
-            <button>Get my Resume</button>
+            <button className='resumebtn'>
+            <NavLink className="buttonlink" to={"https://drive.google.com/file/d/1H_RuWMR31bDQGOKrSGxaeUuiV2ijl_-2/view?usp=drivesdk"} target='_blank'>Get my Resume</NavLink></button>
         </div>
     )
 }

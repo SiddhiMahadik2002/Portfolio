@@ -27,22 +27,41 @@
   margin-top: 20px;
 }
 .menu {
+  position: relative;
+  top:30px;
   margin: 50px 0px;
   display: flex;
   flex-direction: column;
 }
-.menu > a {
+.menu>.menulink{
   font-family: "Karla", sans-serif;
   margin: 15px 0;
   color: #55527c;
   font-size: 16px;
   font-weight: 500;
   letter-spacing: 1px;
+  text-decoration: none;
 }
-.left> button {
-  margin: 100px 10px 0px 10px;
+.resumebtn {
+  position: relative;
+  top:100px;
+  margin: 10px 10px 0px 10px;
   background-color: #130f49;
-  color: white;
+  color: white !important;
   border: none;
   border-color: #130f49;
+}
+.buttonlink {
+  font-size: 16px;
+  font-weight: 600;
+  font-family: "Karla", sans-serif;
+  color:white;
+  text-decoration: none;
+}
+
+.menu>.menulink:hover {
+  color: #a5a6ff;
+  cursor: pointer;
+  font-size: 18px;
+  
 }
