@@ -131,3 +131,42 @@
     border:none;
     margin-bottom:30px ;
 }
+
+@media (min-width: 0px) and (max-width: 769px){
+.upper_contact{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding:0px;
+    margin: 0px;
+}
+.main_contact{
+    display: flex;
+    flex-direction: column;
+    padding:40px 20px ;
+}
+.lower_contact{
+    display: flex;
+    flex-direction: column;
+}
+.inputcontact{
+    margin-top: 30px;
+
+}
+.inputcontact>input{
+    width: 100%;
+}
+.inputcontact>textarea{
+    width:100%;
+}
+.inputcontact>button{
+    width:50%;
+}
+.map{
+    width: 380px;
+    margin-top:0px;
+}
+.lower_contact{
+    margin-top: 40px;
+}
+}

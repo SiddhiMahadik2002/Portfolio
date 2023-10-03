@@ -167,3 +167,76 @@ span {
   margin-top: 40px;
 }
 
+/* responsivenes */
+
+
+@media (min-width: 0px) and (max-width: 769px) {
+ .maindiv{
+  display:flex;
+  flex-direction: column;
+  width: 100%;
+  padding: 20px;
+ }
+ .leftarea{
+  display: flex;
+  flex-direction: column;
+  padding: 0px;
+  margin: 0px;
+ }
+ .upper{
+  display:flex;
+ 
+  flex-direction: column;
+
+  width: 100%;
+ }
+ .rightarea{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  
+ }
+ .text{
+  margin:0px;
+  margin-top:30px;
+ }
+ .common{
+  margin:0px;
+  padding:50px 50px;
+ }
+ .box{
+  display: grid;
+grid-template-columns: 1fr;
+grid-template-rows: repeat(3, 1fr);
+grid-column-gap: 0px;
+grid-row-gap: 25px;
+
+ }
+ .lower{
+  margin:0;
+  padding: 0;
+  
+ }
+ .common>h3{
+ 
+   padding:0px 120px; 
+  /* text-align: center;
+   */
+ }
+ .headings{
+  display: grid;
+grid-template-columns: repeat(2, 1fr);
+grid-template-rows: repeat(2, 1fr);
+grid-column-gap: 0px;
+grid-row-gap: 20px;
+  
+ }
+ .details{
+  display: grid;
+grid-template-columns: repeat(2, 1fr);
+grid-template-rows: repeat(2, 1fr);
+grid-column-gap: 0px;
+grid-row-gap: 20px;
+}
+
+}

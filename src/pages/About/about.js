@@ -59,7 +59,7 @@ const About = () => {
                         </div>
                         <div className="innerdiv3 common">
                             <h3>6+</h3>
-                            <span>MONTHS PROJECT <br /> BASED EXPERIENCE</span>
+                            <span>MONTHS PROJECT <br />BASED EXPERIENCE</span>
                         </div>
                     </div>
                 </div>

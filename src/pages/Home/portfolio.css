@@ -1,15 +1,11 @@
-
-
 .main {
   display: grid;
   grid-template-columns: 19% 81%;
   height: 100vh;
- 
-  
 }
 @keyframes slideFromLeft {
   to {
-      left: 0; /* Move the element to its final position */
+    left: 0; /* Move the element to its final position */
   }
 }
 
@@ -19,10 +15,9 @@
   background-color: #effbf8;
   padding: 20px 0px;
   position: relative;
-    left: -2%; /* Start the element off the left side of the screen */
-    animation: slideFromLeft 1s ease forwards;
+  left: -2%; /* Start the element off the left side of the screen */
+  animation: slideFromLeft 1s ease forwards;
 }
-  
 
 h1 {
   font-family: "Inter", sans-serif;
@@ -54,7 +49,6 @@ button {
   letter-spacing: 0.5px;
   font-family: "Karla", sans-serif;
   cursor: pointer;
-  
 }
 .leftside {
   display: flex;
@@ -62,7 +56,6 @@ button {
   padding: 70px 0px 70px 80px;
   align-items: flex-start;
   margin-left: 50px;
-  
 }
 .btn1 {
   background-color: #130f49;
@@ -72,13 +65,11 @@ button {
 }
 .btn2 {
   background-color: #effbf8;
-  border: 1px solid #55527C;
- 
-  
+  border: 1px solid #55527c;
 }
-.btnlink2{
-  color:#55527C !important;
-  font-family: 'karla',sans-serif;
+.btnlink2 {
+  color: #55527c !important;
+  font-family: "karla", sans-serif;
 }
 
 .vertical-line {
@@ -100,7 +91,7 @@ ul > li {
   padding: 5px 0px;
 }
 
-.colorChange{
+.colorChange {
   font-size: 16px;
   font-weight: 600;
   font-family: "Karla", sans-serif;
@@ -112,9 +103,6 @@ ul > li {
   color: #ff972d;
   cursor: pointer;
 }
-
-
-
 
 .rightside > img {
   border: 3px solid #a5a6ff;
@@ -128,4 +116,30 @@ ul > li {
   justify-content: center;
   text-align: center;
   align-items: center;
+}
+
+.mobileHeader{
+  display:block;
+}
+/* responsiveness */
+
+@media (min-width: 0px) and (max-width: 769px) {
+  .main {
+    display: flex;
+    margin-bottom: 30px;
+  }
+
+  .leftside {
+    margin: 20px;
+    padding: 0;
+  }
+  .right{
+    display: flex;
+    flex-direction: column;
+  }
+  .rightside>img{
+    width:250px;
+    height:250px;
+    margin-bottom: 50px;
+  }
 }

@@ -3,12 +3,14 @@ import "./portfolio.css"
 import { Sidebar } from "../../component/Sidebar/Sidebar";
 import { NavLink } from "react-router-dom";
 
+
 const Portfolio = () => {
     const emailAddress = 'siddhimahadik257@gmail.com';
     const phoneNumber = '8956681803'
     return (
         <div className="main">
             <Sidebar/>
+            
             <div className="right scrollableDiv">
                 <div className="leftside">
                     <h1>Hi, I'm <span>Siddhi!</span> <br />
