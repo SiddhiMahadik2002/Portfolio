@@ -21,6 +21,7 @@ const Project = () => {
 
                             <div className="innerDiv1">
                                 <img src={`/imgs/${item.img}`} alt="" />
+                                <p>{item.duration}</p>
                             </div>
                             <div className="info_project">
                                 <div className="innerDiv2">

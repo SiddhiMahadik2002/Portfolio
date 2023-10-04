@@ -1,7 +1,7 @@
 .mobileHeader {
     position: relative;
     background-color: #fff; /* Background color for the header */
-    padding: 0px; /* Add padding as needed */
+    padding: 8px; /* Add padding as needed */
   
     display: none;
     justify-content: space-between;
@@ -40,14 +40,39 @@
     z-index: 1000;
   }
   .closeMenu{
-   position: absolute;
-   right:10px;
-   top:10px;
+   position: fixed;
+   right:20px;
+   top:20px;
+   font-size: 20px;
   }
  
+  .menu {
+   
+    top:30px;
+    margin: 50px 0px;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .menu>.menulink{
+    font-family: "Karla", sans-serif;
+    margin: 15px 0;
+    color: #55527c;
+    font-size: 16px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    text-decoration: none;
+  }
 
   @media (min-width:0px) and (max-width:769px){
     .mobileHeader{
       display: flex;
+    }
+    .menu>.menulink{
+      margin:25px ;
+      
+    }
+    .closeMenu{
+      margin: 0;
     }
   }
