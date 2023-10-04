@@ -126,7 +126,7 @@ ul > li {
 @media (min-width: 0px) and (max-width: 769px) {
   .main {
     display: flex;
-    margin-bottom: 30px;
+    margin-bottom: 60px;
   }
 
   .leftside {
