@@ -157,4 +157,7 @@ ul > li {
     width: 100%;
     margin: 5px 0px;
   }
+  .rightside{
+    margin-bottom: 80px;
+  }
 }

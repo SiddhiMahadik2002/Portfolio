@@ -237,7 +237,7 @@ margin:0;
 }
 .infodetails{
   display: flex;
-  margin-top:40px;
+  margin:40px 0px;
 }
 .details>a{
   margin:10px 0;
