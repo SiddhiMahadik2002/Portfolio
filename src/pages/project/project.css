@@ -101,7 +101,7 @@
 @media (min-width: 0px) and (max-width: 769px){
     .project{
         padding:50px 20px;
-        margin-bottom: 60px;
+        margin-bottom: 80px;
     }
     .project_grid{
         display: grid;
