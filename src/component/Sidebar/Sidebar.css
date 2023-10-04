@@ -35,16 +35,17 @@
 }
 .menu>.menulink{
   font-family: "Karla", sans-serif;
-  margin: 15px 0;
+  margin: 20px 0;
   color: #55527c;
   font-size: 16px;
-  font-weight: 500;
+  font-weight: 600;
   letter-spacing: 1px;
   text-decoration: none;
+  transition: all 0.3s ease;
 }
 .resumebtn {
-  position: relative;
-  top:100px;
+  position: absolute;
+  bottom:30px;
   margin: 10px 10px 0px 10px;
   background-color: #130f49;
   color: white !important;
@@ -62,7 +63,7 @@
 .menu>.menulink:hover {
   color: #a5a6ff;
   cursor: pointer;
-  font-size: 18px;
+  scale:1.1;
   
 }
 

@@ -18,7 +18,7 @@ const Portfolio = () => {
                     </h1>
                     <p>I'm a India based UIUX designer & front‑end <br />developer with strong knowledge in Javascript ecosystem!
                     </p>
-                    <div className="btns">
+                    <div className="btns mbtns">
                 
                     
                         <button className="btn1"><NavLink className="buttonlink" to={"/project"}>Got a project?</NavLink></button>

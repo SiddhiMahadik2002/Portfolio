@@ -22,11 +22,12 @@
     border:0.5px solid rgb(201, 200, 200);
 }
 .singleProject{
-    
+   
     width:100%;
     border-radius: 10px;
     box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
     background-color: #fff;
+   
 }
 .project{
     overflow:auto;
@@ -48,7 +49,7 @@
         grid-template-rows: repeat(2, 1fr);
         grid-column-gap: 30px;
         grid-row-gap: 40px;
-        
+       
         }
        
 .div1>p{
@@ -77,6 +78,7 @@
   flex-grow: 1;
 }
 .chkproject{
+    
     background-color: #130f49;
     color: white;
     border: none;
@@ -90,6 +92,9 @@
     font-family: "Karla", sans-serif;
     cursor: pointer;
    
+}
+.innerDiv3>a{
+  position: relative;
 }
 
 

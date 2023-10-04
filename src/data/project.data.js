@@ -17,7 +17,7 @@ const projectData = [
     },
     {
         img:"pixsdev.png",
-        projectName:"Portfolio site | Reactjs, React Hooks, Email.js and vercel",
+        projectName:"Personal Portfolio website | Reactjs, React Hooks, Email.js and vercel",
         description:"Efficiently build and deploy portfolio website with React.js, leveraging the power of React Hooks and seamless email integration via Email.js. Hosted on Vercel for optimal performance.",
         label:"Check Project",
         duration:"Sept 2023-Oct 2023",
@@ -25,7 +25,7 @@ const projectData = [
     },
     {
         img:"todoproject.png",
-        projectName:"Dynamic Todos | Nextjs, Reactjs, React Hooks, Vercel",
+        projectName:"Dynamic Todos manager | Nextjs, Reactjs, React Hooks, Vercel",
         description:" Easily manage tasks with Dynamic Todos, a Next.js application powered by React.js and React Hooks. Hosted on Vercel, it provides seamless and dynamic todo list management.",
         label:"Check Project",
         duration:"Sept 2023-present",
@@ -33,7 +33,7 @@ const projectData = [
     },    
     {
         img:"musicplayer.png",
-        projectName:" Music Player| Nextjs, Reactjs, React Hooks, Vercel",
+        projectName:" Music Player| Nextjs, Reactjs, React Hooks, Framer motion, Vercel",
         description:" Immerse yourself in the world of music with the Music App. Built using Next.js and React.js with the magic of React Hooks, it's hosted on Vercel for a seamless musical experience.",
         label:"Check Project",
         duration:"Oct 2023-Oct 2023",

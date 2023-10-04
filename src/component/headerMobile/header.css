@@ -1,7 +1,7 @@
 .mobileHeader {
     position: relative;
     background-color: #fff; /* Background color for the header */
-    padding: 8px; /* Add padding as needed */
+    padding: 14px; /* Add padding as needed */
   
     display: none;
     justify-content: space-between;
@@ -12,21 +12,21 @@
     background: none;
     border: none;
     cursor: pointer;
-    padding: 8px;
+   
   }
 
-  .myname>h3{
+  .myname>h2{
     text-align: left;
-    margin-left: 20px;
-    color:#a5a6ff;
+    
+    color:#130f49;
     font-family:'karla',sans-serif;
   
   }
 
-  .bar {
-    width: 30px;
-    height: 3px;
-    background-color:#000 ; /* Color of the hamburger bars */
+  .menuToggle>i {
+  
+    font-size: 25px;
+    font-weight: 800;
     margin: 6px 0;
     transition: 0.4s;
   }
@@ -34,6 +34,7 @@
   .mobileMainMenu{
     position: fixed;
     top: 0px;
+    left: 0px;
     width: 100%;
     height: 100vh;
     background-color: rgb(255, 255, 255);
@@ -46,7 +47,7 @@
    font-size: 20px;
   }
  
-  .menu {
+  .mmenu {
    
     top:30px;
     margin: 50px 0px;
@@ -54,13 +55,32 @@
     flex-direction: column;
   }
 
-  .menu>.menulink{
+  .mmenu>.menulink{
     font-family: "Karla", sans-serif;
-    margin: 15px 0;
+    margin: 5px 0;
     color: #55527c;
-    font-size: 16px;
-    font-weight: 500;
+    font-size: 20px;
+    font-weight: 600;
     letter-spacing: 1px;
+    text-decoration: none;
+    border-bottom: 1px solid gainsboro;
+  }
+
+  .mresumebtn {
+    position: absolute;
+    bottom:30px;
+    
+    margin: 10px 25px 0px 25px;
+    background-color: #130f49;
+    color: white !important;
+    border: none;
+    border-color: #130f49;
+  }
+  .mresumebtn>.buttonlink {
+    font-size: 16px;
+    font-weight: 600;
+    font-family: "Karla", sans-serif;
+    color:white;
     text-decoration: none;
   }
 
@@ -68,11 +88,13 @@
     .mobileHeader{
       display: flex;
     }
-    .menu>.menulink{
-      margin:25px ;
+    .mmenu>.menulink{
+      margin:10px 25px;
+      padding:10px 0;
       
     }
     .closeMenu{
       margin: 0;
     }
+
   }

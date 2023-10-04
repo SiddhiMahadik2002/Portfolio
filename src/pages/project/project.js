@@ -26,7 +26,7 @@ const Project = () => {
                             <div className="info_project">
                                 <div className="innerDiv2">
                                     <h3>{item.projectName} </h3>
-                                    <p>{(item.description).length<20? `${item.description}` :`${(item.description).substring(0,110)}...`}
+                                    <p>{(item.description).length<20? `${item.description}` :`${(item.description).substring(0,105)}...`}
                                     </p>
                                 </div>
                                 <div className="innerDiv3">
